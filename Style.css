@@ -171,7 +171,6 @@ hr{
 
 }
 .info-box {
-    /* Width: 111.76px; */
     Height: 11.81px;
     font-size: 13px;
 }
@@ -192,4 +191,47 @@ hr{
 }
 .fa-star.blankl{
     color: #AEAEAE;
+}
+
+
+/* ------------ 
+   Responsive
+-------------- */
+@media (max-width: 668px){
+    .main {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 33px 30px 64px;
+        margin-top: 36px;
+    }
+    .top-players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .top-blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .blog {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        /* gap: 16px; */
+    }
+    .blog img{
+        width: 100%;
+        /* height: 117px; */
+    }
+    .top-courses {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* column-gap: 53px; */
+    }
 }

@@ -201,6 +201,13 @@ hr{
     .main {
         display: none;
     }
+    .logo {
+        display: none
+    }
+    .nav-option {
+        display: none;
+        
+    }
     .container {
         width: 100%;
         height: auto;
